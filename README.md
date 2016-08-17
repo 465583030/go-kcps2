@@ -8,6 +8,10 @@ This package is based on [xanzy/go-cloudstack](https://github.com/xanzy/go-cloud
 ## Description
 This package covers the complete [KCPS2 API](https://manual.cloud-platform.kddi.ne.jp/developer/api/cloud-stack-api/list/).
 
+## Features
+* two clients (created with NewClient(...) and  NewAsyncClient(...)) function and create the needed API command parameter struct a New...Params function reference [here](https://github.com/xanzy/go-cloudstack#features)
+* This package because it is based on [xanzy/go-cloudstack](https://github.com/xanzy/go-cloudstack) , other features is also based . See [here](https://github.com/xanzy/go-cloudstack#features)
+
 ## Example
 ```go
 package main
